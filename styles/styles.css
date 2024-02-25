@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+body {
+    background-color: #D9D9D9;
+}
+
+.nav{
+    background-color: #E7ECEF;
+    color: black;
+    justify-content: space-between;
+    display: flex;
+}
+
+#logo {
+    height: 15vh;
+    border-radius: 25px;
+    margin: 1vh 1vw 1vh 1vw;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+    padding: 15px;
+    font-size: 2em;
+    margin: 15px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+
+}
+
+#tituloIndex {
+    margin-top: 20vh;
+}
+
+.carousel {
+    margin-top: 5vh;
+}
+.carousel-inner .carousel-item img {
+    border-radius: 25px;
+}
+
+.carousel-inner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#ingTrabajando {
+    display: flex;
+    margin-top: 5vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+#ingTrabajando img {
+    width: 20vw;
+    border-radius: 25px;
+}
+
+#ingTrabajando #parrafo1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#ingTrabajando #parrafo2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    margin-left: 10px;
+}
+
+#algunos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 40px;
+}
+
+#listaClientes {
+    margin: 40px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#listaClientes img {
+    height: 8vw;
+    border-radius: 25px;
+}
+
+#certi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 40px;
+}
+
+#certificaciones img {
+    height: 6vw;
+}
+
+#certificaciones {
+    margin: 40px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer {
+    height: 10vh;
+    background-color: #E7ECEF;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer img {
+    height: 40px;
+    margin-top: 10px;
+}
+
+h1 {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#misVis {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#mision {
+    width: 350px;
+    text-align: justify;
+}
+
+#vision {
+    width: 350px;
+    text-align: justify;
+ }
+
+ h1 {
+    font-size: 50px;
+ }
+
+h2 {
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#backGround {
+    margin-top: 40px;
+}
+
+.eng1 {
+    width: 450px;
+    border-radius: 25px;
+}
+
+.parte1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 40px 250px 0 250px;
+    text-align: justify;
+}
+
+.parrafoEng1 {
+    margin-left: 20px;
+}
+
+.eng2 {
+    width: 450px;
+    border-radius: 25px;
+}
+
+.parrafoEng2 {
+    margin-right: 20px;
+}
+
+#parte2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 40px 250px 0 250px;
+    text-align: justify;
+}
+
+#sedes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.mapas {
+    margin: 30px;
+    font-size: 20px;
+}
+
+.imgServ {
+    width: 25vw;
+    border-radius: 25px;
+}
+
+#especialidades {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 150px 0 150px;
+
+}
+
+#mecanica, #civil, #obras {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 40px 200px 0 200px;
+    text-align: justify;
+}
+
+#electrica, #ingenieria {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 40px 200px 0 200px;
+    text-align: justify;
+}
+
+.serv135 {
+    margin-left: 20px;
+    font-size: 1em;
+}
+
+.serv24 {
+    margin-right: 20px;
+    font-size: 1em;
+}
+
+#proj1 img, #proj2 img, #proj3 img {
+    width: 35vw;
+    border-radius: 25px;
+    margin-top: 40px;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#proj1, #proj2, #proj3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+}
+
+#proj1 p, #proj2 p, #proj3 p {
+    display: flex;
+}
+
+#comentarios {
+    resize: none;
+}
+
+/* FORMULARIO ANTES DE BOOTSTRAP
+
+form {
+    display: block;
+    margin: 100px auto;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    font-size: 25px;
+}
+
+button {
+    font-size: 25px;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.boton {
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+}
+
+label #nombre, label #apellido, label #mail, label #phone, label #empresa {
+    width: 350px;
+    height: 20px;
+} */
+
+form {
+    margin-top: 10vh;
+
+}
+
+#contacth1 {
+    margin-top: 25vh;
+    font-size: 3vh;
+}
+
+.row {
+    justify-content: center;
+    align-items: center;
+}
+
+.botonForm {
+    text-align: center;
+}
+
+@media (max-width:1360px) {
+    li {
+        font-size: 1.5em;
+    }
+    #logo {
+        height: 10vh;
+    }
+    #ingTrabajando {
+        height: auto;
+    }
+    .eng1, .eng2 {
+        width: 25vw;
+    }
+    .parrafoEng1, .parrafoEng2, #mision p, #vision p, .serv135, .serv24 {
+        font-size: 0.8em;
+    }
+    .imgServ {
+        width: 18vw;
+    } 
+    #proj1 img, #proj2 img, #proj3 img {
+        width: 25vw;
+    }
+
+}
+
+@media (max-width:1025px) {
+    #ingTrabajando {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:1190px) {
+    li {
+        font-size: 1.2em;
+    }
+    #algunos {
+        font-size: 3vh;
+    }
+    #certi {
+        font-size: 3vh;
+    }
+    footer img {
+        height: 3vh;
+    }
+    footer p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:970px) {
+    #logo, .dire, .eng1, .eng2 {
+        display: none;
+    }
+    iframe {
+        width: 300px;
+        height: auto;
+    }
+}
+
+.h1Nosotros, .servh1, .projectsh1 {
+    margin-top: 25vh;
+}
