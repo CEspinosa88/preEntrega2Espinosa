@@ -41,7 +41,7 @@ ul {
 
 }
 
-#tituloIndex {
+#tituloIndex, .h1Nosotros, .servh1, .projectsh1, #contacth1 {
     margin-top: 20vh;
 }
 
@@ -170,10 +170,6 @@ h1 {
     text-align: justify;
  }
 
- h1 {
-    font-size: 50px;
- }
-
 h2 {
     font-size: 40px;
     display: flex;
@@ -232,41 +228,22 @@ h2 {
 }
 
 .imgServ {
-    width: 25vw;
+    width: 45vh;
+    height: auto;
     border-radius: 25px;
 }
 
-#especialidades {
+.gridPadre {
     display: flex;
-    flex-direction: column;
-    margin: 50px 150px 0 150px;
-
+    justify-content: center;
 }
 
-#mecanica, #civil, #obras {
-    display: flex;
-    flex-direction: row;
+#gridServicios {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 75vw;
     align-items: center;
-    margin: 40px 200px 0 200px;
-    text-align: justify;
-}
-
-#electrica, #ingenieria {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 40px 200px 0 200px;
-    text-align: justify;
-}
-
-.serv135 {
-    margin-left: 20px;
-    font-size: 1em;
-}
-
-.serv24 {
-    margin-right: 20px;
-    font-size: 1em;
+    justify-items: center;
 }
 
 #proj1 img, #proj2 img, #proj3 img {
@@ -296,49 +273,9 @@ h2 {
     resize: none;
 }
 
-/* FORMULARIO ANTES DE BOOTSTRAP
-
-form {
-    display: block;
-    margin: 100px auto;
-}
-
-label {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px;
-    font-size: 25px;
-}
-
-button {
-    font-size: 25px;
-    width: 100px;
-    border-radius: 5px;
-    text-align: center;
-}
-
-.boton {
-    text-align: center;
-}
-
-fieldset {
-    border: none;
-}
-
-label #nombre, label #apellido, label #mail, label #phone, label #empresa {
-    width: 350px;
-    height: 20px;
-} */
-
 form {
     margin-top: 10vh;
 
-}
-
-#contacth1 {
-    margin-top: 25vh;
-    font-size: 3vh;
 }
 
 .row {
@@ -366,11 +303,12 @@ form {
     .parrafoEng1, .parrafoEng2, #mision p, #vision p, .serv135, .serv24 {
         font-size: 0.8em;
     }
-    .imgServ {
-        width: 18vw;
-    } 
     #proj1 img, #proj2 img, #proj3 img {
         width: 25vw;
+    }
+    h1, #contacth1, #tituloIndex, .h1Nosotros, .servh1, .projectsh1 {
+        font-size: 2em;
+       
     }
 
 }
@@ -410,8 +348,16 @@ form {
         width: 300px;
         height: auto;
     }
+    .imgServ {
+        width: 25vw;
+    }
+    h1, #contacth1, #tituloIndex, .h1Nosotros, .servh1, .projectsh1 {
+        font-size: 1.5em;
+    }
 }
 
-.h1Nosotros, .servh1, .projectsh1 {
-    margin-top: 25vh;
+@media (max-width: 770px) {
+    form {
+        font-size: 1em;
+    }
 }
