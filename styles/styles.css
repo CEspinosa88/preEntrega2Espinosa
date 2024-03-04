@@ -4,23 +4,22 @@
     margin: 0;
     padding: 0;
     font-family: 'Chakra Petch', sans-serif;
+    box-sizing: border-box;
+    height: auto;
 }
 
 body {
     background-color: #D9D9D9;
+
 }
 
-.nav{
-    background-color: #E7ECEF;
-    color: black;
-    justify-content: space-between;
-    display: flex;
+.flex-column {
+    display: none;
 }
 
 #logo {
+    border-radius: 10px;
     height: 15vh;
-    border-radius: 25px;
-    margin: 1vh 1vw 1vh 1vw;
 }
 
 ul li a {
@@ -42,7 +41,7 @@ ul {
 }
 
 #tituloIndex, .h1Nosotros, .servh1, .projectsh1, #contacth1 {
-    margin-top: 20vh;
+    margin-top: 25vh;
 }
 
 .carousel {
@@ -131,18 +130,12 @@ ul {
 }
 
 footer {
-    height: 10vh;
-    background-color: #E7ECEF;
-    margin-top: 70px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    height: 25vh;
 }
 
 footer img {
-    height: 40px;
-    margin-top: 10px;
+    height: 4vh;
+    margin-top: 1vh;
 }
 
 h1 {
@@ -179,6 +172,10 @@ h2 {
 
 #backGround {
     margin-top: 40px;
+}
+
+.quienesGridPadre {
+    display: none;
 }
 
 .eng1 {
@@ -238,12 +235,13 @@ h2 {
     justify-content: center;
 }
 
-#gridServicios {
+#gridServicios, .gridMis {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 75vw;
     align-items: center;
     justify-items: center;
+
 }
 
 #proj1 img, #proj2 img, #proj3 img {
@@ -310,7 +308,6 @@ form {
         font-size: 2em;
        
     }
-
 }
 
 @media (max-width:1025px) {
@@ -319,7 +316,6 @@ form {
         flex-direction: column;
         align-items: center;
     }
-
 }
 
 @media (max-width:1190px) {
@@ -341,7 +337,7 @@ form {
 }
 
 @media (max-width:970px) {
-    #logo, .dire, .eng1, .eng2 {
+ #quienes {
         display: none;
     }
     iframe {
@@ -358,6 +354,13 @@ form {
 
 @media (max-width: 770px) {
     form {
-        font-size: 1em;
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 970px) {
+    .quienesGridPadre {
+        display:flex;
+        justify-content: center;
     }
 }
